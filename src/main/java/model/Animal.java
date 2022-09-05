@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mavel;
+package model;
 
 /**
  *
@@ -50,4 +50,10 @@ public class Animal {
         this.sexo = sexo;
     }
  
+    
+    @Override
+    public String toString(){
+       return "Animal<"+" Nome: "+ nome +" idade: "+ idade+ " sexo: "+ sexo +">"+"\n";
+  
+   }
 }

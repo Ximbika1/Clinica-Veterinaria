@@ -2,31 +2,31 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mavel;
+package model;
 
 /**
  *
  * @author pedro
  */
-public class Exame {
+public class Especie { 
     private int id;
-    private String desc_exame;
+    private String nome;
 
-    public Exame(int id, String desc_exame) {
+    public Especie(int id, String nome) {
         this.id = id;
-        this.desc_exame = desc_exame;
+        this.nome = nome;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getDesc_exame() {
-        return desc_exame;
+
+    public String getNome() {
+        return nome;
     }
 
-    public void setDesc_exame(String desc_exame) {
-        this.desc_exame = desc_exame;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-    
 }

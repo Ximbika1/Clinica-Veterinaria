@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mavel;
+package model;
 
 /**
  *
@@ -13,6 +13,7 @@ public class Consulta {
     private int id;
     private String historico;
     private Date dat_con = new Date();
+    
 
     public Consulta(int id, String historico) {
         this.id = id;
